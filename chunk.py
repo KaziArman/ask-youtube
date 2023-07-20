@@ -28,17 +28,4 @@ class chunking:
         )
 
         chunks = text_splitter.create_documents([text])
-        # Quick data visualization to ensure chunking was successful
-
-        # Create a list of token counts
-        token_counts = [count_tokens(chunk.page_content) for chunk in chunks]
-
-        # Create a DataFrame from the token counts
-        df = pd.DataFrame({'Token Count': token_counts})
-
-        # Create a histogram of the token count distribution
-        df.hist(bins=40, )
-
-        # Show the plot
-        plt.show()
         return chunks
