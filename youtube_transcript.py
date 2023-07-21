@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 class YT_transcript:
     def __init__(self,lnk):
         self.lnk = lnk
@@ -20,7 +19,6 @@ class YT_transcript:
         documents = loader.load_data(ytlinks=[self.lnk])
         text=documents[0].text
         return text
-=======
 class YT_transcript:
     def __init__(self,lnk):
         self.lnk = lnk
@@ -45,20 +43,3 @@ class YT_transcript:
         text=documents[0].text
         return text
 
-
-    '''# Step 3: Create function to count tokens
-    tokenizer = GPT2TokenizerFast.from_pretrained("gpt2")
-    
-    def count_tokens(text: str) -> int:
-        return len(tokenizer.encode(text))
-    
-    # Step 4: Split text into chunks
-    text_splitter = RecursiveCharacterTextSplitter(
-        # Set a really small chunk size, just to show.
-        chunk_size = 512,
-        chunk_overlap  = 52,
-        length_function = count_tokens,
-    )
-    
-    chunks = text_splitter.create_documents([text])'''
->>>>>>> 52de17b5fd100f8a16c3380f94ce8b9799d13233
