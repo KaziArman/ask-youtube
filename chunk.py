@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 class chunking:
     def __init__(self,text):
         self.text = text
@@ -31,7 +30,6 @@ class chunking:
         chunks = text_splitter.create_documents([text])
 
         return chunks
-=======
 class chunking:
     def __init__(self,text):
         self.text = text
@@ -63,4 +61,3 @@ class chunking:
 
         chunks = text_splitter.create_documents([text])
         return chunks
->>>>>>> 52de17b5fd100f8a16c3380f94ce8b9799d13233
