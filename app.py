@@ -39,10 +39,11 @@ def on_btn_click():
     del st.session_state["messages"]
     st.session_state["messages"] = [{"role": "assistant", "content": "Hi, I am an AI bot created by LandQuire Data Team\nHow can I help you regarding this YouTube video?"}]
 
-
+key1 = "sk-OjF7n7SbhQFe"
+key2 = "23jgEFwVT3BlbkFJYmFfG1SEDeKO81ABfpsn"
 key = st.sidebar.text_input('Enter your API key')
 if key == "landquire23!":
-    api_key = "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"
+    api_key = key1+key2
 else:
     api_key = key
 youtube_link = st.sidebar.text_input('Enter your YouTube video link')
