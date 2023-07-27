@@ -39,13 +39,9 @@ def on_btn_click():
     del st.session_state["messages"]
     st.session_state["messages"] = [{"role": "assistant", "content": "Hi, I am an AI bot created by LandQuire Data Team\nHow can I help you regarding this YouTube video?"}]
 
-key1 = "sk-OjF7n7SbhQFe"
-key2 = "23jgEFwVT3BlbkFJYmFfG1SEDeKO81ABfpsn"
-key = st.sidebar.text_input('Enter your API key')
-if key == "landquire23!":
-    api_key = key1+key2
-else:
-    api_key = key
+
+api_key = st.sidebar.text_input('Enter your API key')
+
 youtube_link = st.sidebar.text_input('Enter your YouTube video link')
 temp_slider = st.sidebar.slider('Set the temperature of the completion. Higher values make the output more random,  lower values make it more focused.', 0.0, 1.0, 0.7)
 st.sidebar.button("Clear messages", use_container_width=True,on_click=on_btn_click)
