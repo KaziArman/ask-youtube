@@ -20,7 +20,7 @@
 </ol>
 
 <pre><code>git clone https://github.com/KaziArman/ask-youtube.git
-cd your-repo-name
+cd ask-youtube
 </code></pre>
 
 <ol start="2">
