@@ -26,7 +26,7 @@ st.markdown(f'<div class="header"><figure style="background-color: #FFFFFF;"><im
 with st.expander("How to use Ask Youtube 🤖", expanded=False):
 	st.markdown(
 		"""
-		Please refer to [our dedicated guide](#) on how to use Ask Youtube.
+		Please refer to [our dedicated guide](https://github.com/KaziArman/ask-youtube#readme) on how to use Ask Youtube.
 		"""
     )
 
