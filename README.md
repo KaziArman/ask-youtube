@@ -1,8 +1,8 @@
-<h1>Conversational AI Bot for YouTube Videos</h1>
+<h1>Ask YouTube: A Conversational AI Chatbot for YouTube Videos</h1>
 
 <p><img src="https://drive.google.com/uc?id=1N2agy8msmazTBT36eZ5CsGGnHTCSxSKf" width="400" style="display: block; margin: 0 auto; background-color: #FFFFFF;" alt="Project Banner"></p>
 
-<p>Welcome to the Conversational AI Bot for YouTube Videos! This project aims to enhance the viewer's experience by providing a dynamic conversational interface that enables users to interact with YouTube videos in a more informative and engaging way. With the integration of Langchain, OpenAI, Llama Index, and Streamlit, this bot allows users to submit a YouTube link and ask specific questions about the video's content. It also leverages the power of ChatGPT to provide additional information beyond what's covered in the video.</p>
+<p>Welcome to Ask YouTube which is a Conversational AI Bot for YouTube Videos! This project aims to enhance the viewer's experience by providing a dynamic conversational interface that enables users to interact with YouTube youtube videos in a more informative and engaging way. With the integration of Langchain, OpenAI, Llama Index, and Streamlit, this bot allows users to submit a YouTube link and ask specific questions about the video's content. It also leverages the power of ChatGPT to provide additional information beyond what's covered in the video.</p>
 
 <h2>Features</h2>
 
@@ -40,11 +40,10 @@ cd your-repo-name
 <h2>Usage</h2>
 
 <ol>
-  <li>Open your web browser and navigate to the URL provided by Streamlit.</li>
-  <li>Paste a YouTube video link into the designated input field and click "Submit."</li>
-  <li>The bot will provide a summary of the video's content.</li>
-  <li>You can ask specific questions about the video using the chat interface.</li>
-  <li>If there's any information missing in the video, click the "ChatGPT" button to engage with ChatGPT and get more details.</li>
+  <li>Open your web browser and navigate to this url: - <a href="https://ask-youtube.streamlit.app/">https://ask-youtube.streamlit.app/</a> .</li>
+   <li style="color:red;font-weight: bold;">Create your own OpenAI account <a href="https://platform.openai.com/account/api-keys">here</a> and enter your OpenAI API key into the "Enter your API key" text box</li>
+  <li>Paste a YouTube video link into the designated input field and click "Summarize Part by Part" or ask any other questions about the video in the Chat Interface.</li>
+  <li>If there's any information is not briefly explained in the video, click the "ChatGPT" button to engage with ChatGPT and get more details.</li>
 </ol>
 
 <h2>Technologies Used</h2>
@@ -68,10 +67,7 @@ cd your-repo-name
   <li>Create a pull request detailing your changes.</li>
 </ol>
 
-<h2>License</h2>
-
-<p>This project is licensed under the <a href="LICENSE">MIT License</a>.</p>
 
 <h2>Contact</h2>
 
-<p>For questions or inquiries, feel free to contact us at <a href="mailto:contact@example.com">contact@example.com</a>.</p>
+<p>For questions or inquiries, feel free to contact us at <a href="mailto:kazi.arman.mist@gmail.com">kazi.arman.mist@gmail.com</a>.</p>
