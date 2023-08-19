@@ -1,0 +1,77 @@
+<h1>Conversational AI Bot for YouTube Videos</h1>
+
+<p><img src="https://i.pinimg.com/originals/41/f6/4d/41f64d3b4b21cb08eb005b11016bf707.png" alt="Project Banner"></p>
+
+<p>Welcome to the Conversational AI Bot for YouTube Videos! This project aims to enhance the viewer's experience by providing a dynamic conversational interface that enables users to interact with YouTube videos in a more informative and engaging way. With the integration of Langchain, OpenAI, Llama Index, and Streamlit, this bot allows users to submit a YouTube link and ask specific questions about the video's content. It also leverages the power of ChatGPT to provide additional information beyond what's covered in the video.</p>
+
+<h2>Features</h2>
+
+<ul>
+  <li>Submit a YouTube link and receive a summary of the video.</li>
+  <li>Ask specific questions about the video's content.</li>
+  <li>Utilize ChatGPT to get additional information not covered in the video.</li>
+  <li>User-friendly interface powered by Streamlit.</li>
+</ul>
+
+<h2>Installation</h2>
+
+<ol>
+  <li>Clone the repository to your local machine:</li>
+</ol>
+
+<pre><code>git clone https://github.com/your-username/your-repo-name.git
+cd your-repo-name
+</code></pre>
+
+<ol start="2">
+  <li>Install the required dependencies using pip:</li>
+</ol>
+
+<pre><code>pip install -r requirements.txt
+</code></pre>
+
+<ol start="3">
+  <li>Run the Streamlit app:</li>
+</ol>
+
+<pre><code>streamlit run app.py
+</code></pre>
+
+<h2>Usage</h2>
+
+<ol>
+  <li>Open your web browser and navigate to the URL provided by Streamlit.</li>
+  <li>Paste a YouTube video link into the designated input field and click "Submit."</li>
+  <li>The bot will provide a summary of the video's content.</li>
+  <li>You can ask specific questions about the video using the chat interface.</li>
+  <li>If there's any information missing in the video, click the "ChatGPT" button to engage with ChatGPT and get more details.</li>
+</ol>
+
+<h2>Technologies Used</h2>
+
+<ul>
+  <li><a href="https://langchain.ai">Langchain</a>: An AI-powered language processing tool for extracting insights from content.</li>
+  <li><a href="https://openai.com">OpenAI</a>: The technology behind the advanced language generation and conversation with the bot.</li>
+  <li><a href="https://llamalab.com">Llama Index</a>: A platform for content enhancement and enrichment.</li>
+  <li><a href="https://streamlit.io">Streamlit</a>: An open-source Python library for creating web applications with minimal effort.</li>
+</ul>
+
+<h2>Contributing</h2>
+
+<p>Contributions are welcome! If you'd like to contribute to this project, follow these steps:</p>
+
+<ol>
+  <li>Fork the repository.</li>
+  <li>Create a new branch for your feature or bug fix: <code>git checkout -b feature-name</code></li>
+  <li>Make your changes and commit them: <code>git commit -am 'Add some feature'</code></li>
+  <li>Push the changes to your fork: <code>git push origin feature-name</code></li>
+  <li>Create a pull request detailing your changes.</li>
+</ol>
+
+<h2>License</h2>
+
+<p>This project is licensed under the <a href="LICENSE">MIT License</a>.</p>
+
+<h2>Contact</h2>
+
+<p>For questions or inquiries, feel free to contact us at <a href="mailto:contact@example.com">contact@example.com</a>.</p>
