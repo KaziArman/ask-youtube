@@ -1,6 +1,6 @@
 <h1>Conversational AI Bot for YouTube Videos</h1>
 
-<p><img src="https://i.pinimg.com/originals/41/f6/4d/41f64d3b4b21cb08eb005b11016bf707.png" width="400" style="display: block; margin: 0 auto; background-color: #FFFFFF;" alt="Project Banner"></p>
+<p><img src="https://drive.google.com/uc?id=1N2agy8msmazTBT36eZ5CsGGnHTCSxSKf" width="400" style="display: block; margin: 0 auto; background-color: #FFFFFF;" alt="Project Banner"></p>
 
 <p>Welcome to the Conversational AI Bot for YouTube Videos! This project aims to enhance the viewer's experience by providing a dynamic conversational interface that enables users to interact with YouTube videos in a more informative and engaging way. With the integration of Langchain, OpenAI, Llama Index, and Streamlit, this bot allows users to submit a YouTube link and ask specific questions about the video's content. It also leverages the power of ChatGPT to provide additional information beyond what's covered in the video.</p>
 
