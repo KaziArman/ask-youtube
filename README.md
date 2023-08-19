@@ -19,7 +19,7 @@
   <li>Clone the repository to your local machine:</li>
 </ol>
 
-<pre><code>git clone https://github.com/your-username/your-repo-name.git
+<pre><code>git clone https://github.com/KaziArman/ask-youtube.git
 cd your-repo-name
 </code></pre>
 
