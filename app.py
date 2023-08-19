@@ -20,7 +20,7 @@ st.set_page_config(
 	initial_sidebar_state="expanded"
 )
 
-st.markdown(f'<div class="header"><figure style="background-color: #FFFFFF;"><img src="https://i.pinimg.com/originals/41/f6/4d/41f64d3b4b21cb08eb005b11016bf707.png" width="400" style="display: block; margin: 0 auto; background-color: #FFFFFF;"><figcaption></figcaption></figure><h4 style="text-align: center"> Ask Youtube is a conversional AI based tool, where you can ask about any youtube video and it will answer  {IFRAME}</h4></div>', unsafe_allow_html=True)
+st.markdown(f'<div class="header"><figure style="background-color: #FFFFFF;"><img src="https://i.pinimg.com/originals/41/f6/4d/41f64d3b4b21cb08eb005b11016bf707.png" width="400" style="display: block; margin: 0 auto; background-color: #FFFFFF;"><figcaption></figcaption></figure><h4 style="text-align: center"> Ask YouTube is a conversational AI bot that allows you to ask about any YouTube video, and it will provide answers.  {IFRAME}</h4></div>', unsafe_allow_html=True)
 
 
 with st.expander("How to use Ask Youtube 🤖", expanded=False):
