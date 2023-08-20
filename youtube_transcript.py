@@ -14,7 +14,7 @@ class YT_transcript:
         from langchain.llms import OpenAI
         from langchain.chains import ConversationalRetrievalChain
 
-        YoutubeTranscriptReader = download_loader("YoutubeTranscriptReader")
+        YoutubeTranscriptReader = download_loader("YoutubeTranscriptReader", custom_path="local_dir")
         loader = YoutubeTranscriptReader()
         documents = loader.load_data(ytlinks=[self.lnk])
         text=documents[0].text
