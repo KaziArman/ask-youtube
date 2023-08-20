@@ -26,7 +26,7 @@ st.markdown(f'<div class="header"><figure style="background-color: #FFFFFF;"><im
 with st.expander("How to use Ask Youtube 🤖", expanded=False):
 	st.markdown(
 		"""
-		Please refer to [our dedicated guide](https://github.com/KaziArman/ask-youtube#readme) on how to use Ask Youtube.
+		Please refer to [our dedicated guide](https://github.com/KaziArman/ask-youtube#readme) on how to use Ask Youtube or watch this [video tutorial](https://drive.google.com/file/d/1MZfX7TgbU4vVjAl_PE-kD-PQV_5S1Qt9/view).
 		"""
     )
 
@@ -121,7 +121,7 @@ else:
         prompt4 = 'Now, begin by describing the content of the second part according to the previous dividation. Your response should be accurate, and contain as much information as required to create a informative summary. Please make sure that you are not repeating the summary that you use in the first part'
         prompt5 = 'Now, begin by describing the content of the third part according to the previous dividation. Your response should be accurate, and contain as much information as required to create a informative summary. Please make sure that you are not repeating the summary that you use in the first and second part'
         prompt6 = "Now, provide a summary of the entire video  while ensuring all the topics covered are included.Your response should be accurate, and contain at least 100 words or 10 sentences. Make sure to start the passage writing 'In Summary: -' and start the passage from the next new line "
-        prompt2 = "Summarize the video"
+        prompt2 = "Summarize the video part"
         openai.api_key = api_key
         prompt = f'{prompt3}'
         st.session_state.messages.append({"role": "user", "content": prompt2})

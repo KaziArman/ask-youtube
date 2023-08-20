@@ -44,6 +44,7 @@ cd ask-youtube
    <li style="color:red;font-weight: bold;">Create your own OpenAI account <a href="https://platform.openai.com/account/api-keys">here</a> and enter your OpenAI API key into the "Enter your API key" text box</li>
   <li>Paste a YouTube video link into the designated input field and click "Summarize Part by Part" or ask any other questions about the video in the Chat Interface.</li>
   <li>If there's any information is not briefly explained in the video, click the "ChatGPT" button to engage with ChatGPT and get more details.</li>
+    <li>Watch this <a href="https://drive.google.com/file/d/1MZfX7TgbU4vVjAl_PE-kD-PQV_5S1Qt9/view">video tutorial</a> for better understanding</li>
 </ol>
 
 <h2>Technologies Used</h2>
