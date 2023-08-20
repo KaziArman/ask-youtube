@@ -4,6 +4,7 @@ class YT_transcript:
 
     def script(self):
         from llama_index import download_loader
+        from llama_hub.youtube_transcript import YoutubeTranscriptReader
         import os
         from transformers import GPT2TokenizerFast
         from langchain.document_loaders import PyPDFLoader
@@ -14,7 +15,7 @@ class YT_transcript:
         from langchain.llms import OpenAI
         from langchain.chains import ConversationalRetrievalChain
 
-        YoutubeTranscriptReader = download_loader("YoutubeTranscriptReader", custom_path="local_dir")
+        #YoutubeTranscriptReader = download_loader("YoutubeTranscriptReader", custom_path="local_dir")
         loader = YoutubeTranscriptReader()
         documents = loader.load_data(ytlinks=[self.lnk])
         text=documents[0].text
